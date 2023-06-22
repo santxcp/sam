@@ -4,7 +4,6 @@
     font-family: Calibri;
     margin: 0;
     padding: 0;
-    background-color: #675d73;
   }
 
   /* Add styles for the header */
@@ -32,7 +31,7 @@
   /* Add styles for the links in the navigation menu */
   nav a {
     text-decoration: underline;
-    color: purple;
+    color: pink;
   }
 
   /* Add styles for the main content */
@@ -43,7 +42,7 @@
 
   /* Add styles for the footer */
   footer {
-    background-color: #991123;
+    background-color: lightblue;
     padding: 0.1px;
     text-align: center;
     font-family: Arial;
