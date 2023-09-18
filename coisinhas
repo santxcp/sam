@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> JavaScript </h1>
+<button type = "button"
+onelick = "document.getElementById('demo').innerHTML=Date()">
+Botoo Data e Hora </botton>
+<p id="demo"> A data aparece aqui </p>
+<p id="demo1"> </p>
+<SCRIPT>
+document.getElementById('demo1').innerHTML="preenchimento";
+</SCRIPT>
+<p id="demo3"> alterando estilo </p>
+<SCRIPT>
+function alterar_estilo(){
+document.getElementById('demo3').style.fontsize="25px";
+document.getElementById('demo3').style.color="red";
+document.getElementById('demo3').style.backgroundColor="yellow";
+}
+</SCRIPT>
+<button type = "button" onclick="alterar_estilo()">
+</body>
+</html>
